@@ -69,12 +69,12 @@ text-decoration: none;
     max-width: 85%;
     height: 800px;
     display: flex;
-    
+    justify-content: space-between;
     padding: 10px;
     border-radius: 10px;
 }
 .banner-text{
-    background-color: #e9edf0;
+  
 width: 50%;
 padding: 30px 10px;
 margin-top: 40px;
@@ -244,12 +244,15 @@ font-weight: 600;
   
     font-family: Work Sans;
 }
+.circle p{
+font-size: 15px;
+}
 .circle:hover{
       border: 1px solid #F948B2;
       border-radius: 50px;
       background: #FFF;
      color: #FF42A5;
-    margin: 10px;
+   
     
 
 }
